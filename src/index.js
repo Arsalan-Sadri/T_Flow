@@ -1,4 +1,4 @@
 // @flow
 
 // VARIABLES
-let name: string = "Some Name";
+let name: string = "John Doe";
