@@ -21,9 +21,19 @@ person = {
     age: 45
 };
 
-// FUNCTION
+// FUNCTIONS
 function greeting(name: string): string {
     return `Hello ${name}!`;
 }
-
 console.log(greeting("Arsalan"));
+
+function mixedInput(value: string | number) {
+    return 1;
+}
+console.log(mixedInput("true"));
+
+// UTILITY TYPES
+type Suit = "Diamonds" | "Clubs" | "Spades";
+const diamonds: Suit = "Diamonds";
+const clubs: Suit = "Clubs";
+// const hearts: Suit = "Hearts"; This will generate error 
