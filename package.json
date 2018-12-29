@@ -6,12 +6,14 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "babel src/ -d lib/",
-        "prepublish": "npm run build"
+        "prepublish": "npm run build",
+        "flow": "flow"
     },
     "author": "Arsalan Sadri",
     "license": "ISC",
     "devDependencies": {
         "babel-cli": "^6.26.0",
-        "babel-preset-flow": "^6.23.0"
+        "babel-preset-flow": "^6.23.0",
+        "flow-bin": "^0.89.0"
     }
 }
