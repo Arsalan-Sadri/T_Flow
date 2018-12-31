@@ -1,4 +1,4 @@
-// @flow
+
 
 // VARIABLES
 let name: string = "John Doe";
@@ -36,4 +36,4 @@ console.log(mixedInput("true"));
 type Suit = "Diamonds" | "Clubs" | "Spades";
 const diamonds: Suit = "Diamonds";
 const clubs: Suit = "Clubs";
-// const hearts: Suit = "Hearts"; This will generate error
+const hearts: Suit = "Hearts"; // This will generate an error
